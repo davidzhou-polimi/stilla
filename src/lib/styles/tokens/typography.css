@@ -1,4 +1,91 @@
-:root {
-    /* Font Satoshi */
-    --font-satoshi: "Satoshi", sans-serif;
+@theme {
+  --font-satoshi: 'Satoshi', sans-serif;
+}
+
+@utility text-h1 {
+  font-family: var(--font-satoshi);
+  font-weight: 700; /* Bold */
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: var(--spacing-18); /* Kept from previous Figma context */
+}
+
+@utility text-h2 {
+  font-family: var(--font-satoshi);
+  font-weight: 400; /* Regular */
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-h3 {
+  font-family: var(--font-satoshi);
+  font-weight: 400; /* Regular */
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-h4 {
+  font-family: var(--font-satoshi);
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-logo {
+  font-family: var(--font-satoshi);
+  font-weight: 700; /* Bold */
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-card-title {
+  font-family: var(--font-satoshi);
+  font-weight: 500; /* Medium */
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-mobile-h1 {
+  font-family: var(--font-satoshi);
+  font-weight: 700; /* Bold */
+  font-size: 36px;
+  letter-spacing: -2px;
+  line-height: 1.1;
+}
+
+@utility text-mobile-h2 {
+  font-family: var(--font-satoshi);
+  font-weight: 400; /* Regular */
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-mobile-logo {
+  font-family: var(--font-satoshi);
+  font-weight: 900; /* Black */
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-mobile-card-title {
+  font-family: var(--font-satoshi);
+  font-weight: 500; /* Medium */
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 1;
+}
+
+@utility text-tablet-h1 {
+  font-family: var(--font-satoshi);
+  font-weight: 700; /* Bold */
+  font-size: 48px;
+  letter-spacing: -2px;
+  line-height: 1.1;
 }

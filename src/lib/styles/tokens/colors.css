@@ -1,0 +1,15 @@
+@theme {
+  --color-background-primary: #ffffff;
+  --color-background-secondary: #eeeeec;
+  
+  --color-text-primary: #3c3734;
+  --color-text-secondary: #74706d;
+  
+  --color-link-default-old: #3c3734;
+  --color-link-hover: #baeefb;
+  --color-link-default: #fafafa;
+  
+  --color-filter-bg-selected: #64a5cd;
+  --color-filter-bg-hover: #eeeeec;
+  --color-filter-text-selected: #3c3734;
+}
