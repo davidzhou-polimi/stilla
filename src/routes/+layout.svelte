@@ -9,6 +9,9 @@
 </script>
 
 <svelte:head>
+    <title>Stilla – Pratiche di meditazione e respirazione</title>
+    <meta name="description" content="Meditazione, respirazione e mindfulness per ogni livello. Pratiche brevi e guidate per imparare a stare con se stessi – senza guru, senza app." />
+
     <link rel="icon" href={favicon} />
 
     <!-- Font Satoshi -->
