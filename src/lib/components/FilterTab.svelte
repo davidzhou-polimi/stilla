@@ -37,7 +37,7 @@
     <path 
       d="M0 24C0 4.236 4.236 0 24 0H133C152.764 0 157 4.236 157 24C157 43.764 152.764 48 133 48H24C4.236 48 0 43.764 0 24Z" 
       fill="none"
-      class="transition-all duration-300 stroke-[1.5px] {!selected ? 'stroke-transparent group-hover:stroke-[#E6E6E6]' : 'stroke-transparent'}"
+      class="transition-all duration-300 stroke-[1.5px] {!selected ? 'stroke-transparent group-hover:stroke-[#E6E6E6] group-active:stroke-[#E6E6E6]' : 'stroke-transparent'}"
     />
     
     <!-- Path per lo Sfondo (Stato Selected) animata in opacità -->

@@ -10,7 +10,7 @@
 
 <a 
   {href} 
-  class="text-h2 text-link-default hover:text-link-hover transition-colors py-1 whitespace-nowrap {className}"
+  class="text-h2 text-link-default hover:text-link-hover active:text-link-hover transition-colors py-1 whitespace-nowrap {className}"
 >
   {@render children?.()}
 </a>

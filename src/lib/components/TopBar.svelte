@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex items-center justify-center px-6 py-4 md:px-10 md:py-8 lg:px-20 relative w-full">
-  <div class="flex flex-col items-center justify-center w-full lg:w-[640px] h-[48px] md:h-[72px] px-10 relative shrink-0 z-0">
+  <div class="flex flex-col items-center justify-center w-full lg:w-[640px] h-[54px] md:h-[72px] px-10 relative shrink-0 z-0">
     <!-- Desktop SVG Background -->
     <svg class="absolute inset-0 w-full h-full -z-10 hidden lg:block" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" width="640" height="72" viewBox="0 0 640 72" fill="none">
       <path d="M0 36C0 6.354 6.1775 0 35 0H605C633.823 0 640 6.354 640 36C640 65.646 633.823 72 605 72H35C6.1775 72 0 65.646 0 36Z" fill="url(#paint0_linear_112_129)"/>
