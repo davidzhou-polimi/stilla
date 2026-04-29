@@ -38,11 +38,11 @@
     </svg>
     <div class="flex items-center justify-between relative w-full">
     <div class="flex items-center gap-2 shrink-0">
-      <a href="#" class="text-logo text-link-default whitespace-nowrap">Stilla</a>
+      <a href="/" class="text-logo text-link-default whitespace-nowrap">Stilla</a>
     </div>
     <div class="flex items-center gap-6 shrink-0">
-      <Link href="#">Guide</Link>
-      <Link href="#">Percorsi</Link>
+      <Link href="/">Guide</Link>
+      <Link href="/">Percorsi</Link>
     </div>
   </div>
 </div>

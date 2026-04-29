@@ -24,7 +24,7 @@
     
     <div class="flex flex-col w-full pb-10">
       <!-- Tab Navigation (Inline to easily manage state) -->
-      <div id="filters-section" class="flex items-center gap-2 px-6 md:px-10 lg:px-20">
+      <div id="filters-section" class="flex items-center gap-1 md:gap-2 px-6 md:px-10 lg:px-20">
         <FilterTab 
           selected={selectedLevel === 'Principiante'}
           onclick={() => selectedLevel = 'Principiante'}
@@ -46,7 +46,7 @@
       </div>
       
       <!-- Card Grid -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-6 md:px-10 lg:px-20 py-6">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-6 md:px-10 lg:px-20 pt-4 pb-6 md:py-6">
         {#each filteredCards as card}
           <Card 
             title={card.title} 
