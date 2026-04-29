@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount } from 'svelte';
   import TopBar from '$lib/components/TopBar.svelte';
   import Hero from '$lib/components/Hero.svelte';
   import Footer from '$lib/components/Footer.svelte';
@@ -8,6 +9,14 @@
 
   // Caricamento dinamico delle immagini locali con Vite
   const images = import.meta.glob('$lib/assets/*.png', { eager: true, query: '?url', import: 'default' });
+
+  // Precarica tutte le immagini nella cache del browser al mount
+  onMount(() => {
+    Object.values(images).forEach((url) => {
+      const img = new Image();
+      img.src = url as string;
+    });
+  });
 
   // Stato per il filtro attivo
   let selectedLevel = $state('Principiante');
@@ -47,7 +56,7 @@
       
       <!-- Card Grid -->
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-6 md:px-10 lg:px-20 pt-4 pb-6 md:py-6">
-        {#each filteredCards as card}
+        {#each filteredCards as card (card.title)}
           <Card 
             title={card.title} 
             level={card.level} 
