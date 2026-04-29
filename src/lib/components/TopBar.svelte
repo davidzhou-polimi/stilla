@@ -1,5 +1,6 @@
 <script lang="ts">
   import Link from './Link.svelte';
+  import { base } from '$app/paths';
 </script>
 
 <div class="flex items-center justify-center px-6 py-4 md:px-10 md:py-8 lg:px-20 relative w-full">
@@ -38,11 +39,11 @@
     </svg>
     <div class="flex items-center justify-between relative w-full">
     <div class="flex items-center gap-2 shrink-0">
-      <a href="/" class="text-logo text-link-default whitespace-nowrap">Stilla</a>
+      <a href="{base}/" class="text-logo text-link-default whitespace-nowrap">Stilla</a>
     </div>
     <div class="flex items-center gap-6 shrink-0">
-      <Link href="/">Guide</Link>
-      <Link href="/">Percorsi</Link>
+      <Link href="{base}/">Guide</Link>
+      <Link href="{base}/">Percorsi</Link>
     </div>
   </div>
 </div>
